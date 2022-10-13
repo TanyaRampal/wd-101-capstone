@@ -46,8 +46,8 @@ const displayEntries = () => {
   <th class="p-3">Name</th>
   <th class="p-3">Email</th>
   <th class="p-3">Password</th>
-  <th class="p-3">Date of Birth</th>
-  <th class="p-3">Terms Accepted</th>
+  <th class="p-3">Dob</th>
+  <th class="p-3">Accepted terms?</th>
   </tr></thead> ${entries} </table>`;
   let details = document.getElementById("user-entries");
   details.innerHTML = table;
